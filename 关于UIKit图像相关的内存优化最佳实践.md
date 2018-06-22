@@ -42,4 +42,4 @@ iOS12中系统会对一些场景下的内存使用进行优化（主要的case�
 另外，尽量使用calayer.cornerradius,mask相关的api需要额外的image buffer。设置backgroundcolor来达到目的。（总之，尽量使用高级的api，并且组合控件，这是我个人的观点。）
 5. 使用UIGraphicsImageRenderer而不是UIGraphicsBeginImageContextWithOptions这样的传统api。UIGraphicsBeginImageContext很可能会导致iOS12上的优化不起效，因为你的设置是固定的。
 
-###TODO: demo needed.
+### [Demo of downsample](https://github.com/dustturtle/DownSampleDemo)
